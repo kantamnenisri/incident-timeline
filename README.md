@@ -2,6 +2,8 @@
 
 A full-stack tool to parse raw logs, identify silent periods (gaps), and categorize root causes during incidents.
 
+**Live Demo:** [https://incident-timeline.onrender.com](https://incident-timeline.onrender.com)
+
 ## Features
 - **POST /parse-logs**: Extract timestamps and severity.
 - **POST /reconstruct**: Detect timeline gaps (>5 mins) and guess root causes.
