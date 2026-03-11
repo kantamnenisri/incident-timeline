@@ -42,3 +42,9 @@ A full-stack tool to parse raw logs, identify silent periods (gaps), and categor
 - **Backend**: FastAPI (Python 3.11)
 - **Frontend**: HTML5, Tailwind CSS (CDN), JavaScript
 - **Infrastructure**: Docker, Render
+
+
+## 💡 Inspiration
+This project is a reference implementation exploring concepts related to 
+multi-cloud reliability engineering. The author holds USPTO patent 
+applications in this domain (US 19/325,718 and US 19/344,864).
