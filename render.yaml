@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: incident-timeline
+    env: docker
+    plan: free
+    region: oregon
+    dockerContext: .
+    dockerFilePath: Dockerfile
+    healthCheckPath: /health
