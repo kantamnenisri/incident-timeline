@@ -16,6 +16,10 @@ class LogInput(BaseModel):
 def health():
     return {"status": "ok"}
 
+@app.get("/ping")
+async def ping():
+    return "OK"
+
 @app.post("/parse-logs", response_model=List[LogEntry])
 def parse_logs(input: LogInput):
     try:
